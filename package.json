@@ -1,0 +1,27 @@
+{
+  "name": "randomize-traits",
+  "version": "1.0.0",
+  "description": "Microservice A for CS 361",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon randomizeTraitsService.js",
+    "prod": "node randomizeTraitsService.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pm-white/randomize-traits.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/pm-white/randomize-traits/issues"
+  },
+  "homepage": "https://github.com/pm-white/randomize-traits#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.10"
+  }
+}

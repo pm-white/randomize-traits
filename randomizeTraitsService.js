@@ -54,5 +54,5 @@ app.post("/randomize-traits", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Randomize traits service listening on port ${port}`);
 });

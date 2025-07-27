@@ -1,6 +1,14 @@
 # randomize-traits
 
-Microservice A for CS 361
+Microservice A for CS 361. 
+
+## Set up
+1. Clone the repo
+2. `cd` into the project folder
+3. Run `npm install` to install the dependencies
+
+## How to use
+Start the service by running `node randomizeTraitsService.js`
 
 ## A. How to programmatically request data
 

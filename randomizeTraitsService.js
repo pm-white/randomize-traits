@@ -50,7 +50,7 @@ app.post("/randomize-traits", (req, res) => {
     }
   }
 
-  res.json(returnTraits);
+  res.status(200).json(returnTraits);
 });
 
 app.listen(port, () => {

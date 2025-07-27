@@ -16,6 +16,8 @@ app.get("/", async (req, res) => {
       classes: 10,
       subclasses: [3, 3, 4, 5, 2, 6, 3, 3, 4, 5],
       species: 9,
+      origins: 12,
+      alignments: 9,
     }),
   });
 
